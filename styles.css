@@ -1,0 +1,32 @@
+@font-face {
+    font-family: cyberbunk-font;
+    src: url(Fonts/CIND.otf);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.nav-bar ul {
+    text-align: right;
+}
+.nav-bar li {
+    display: inline;
+}
+.nav-bar a {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: cyberbunk-font;
+    color: white;
+}
+.nav-bar a:hover {
+    color: DeepPink;
+    text-shadow: 0px -5px 2px aqua ;
+}
+.section-home img {
+    width: 100%;
+    height: auto;
+}
